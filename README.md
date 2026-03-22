@@ -1,4 +1,4 @@
-* Overview:
+Overview:
 This repository presents a novel deep learning framework for multi-omics data integration aimed at improving cancer prognosis prediction.
 The proposed architecture combines:
 - Autoencoders (CIAE)
@@ -8,8 +8,7 @@ The proposed architecture combines:
 
 The main objective is to identify optimal omics combinations (strategies) and improve predictive performance while preserving causal and non-linear relationships.
 
-** Architecture:
-
+Architecture:
 The pipeline consists of the following steps:
 1- Dimensionality Reduction:
     - Autoencoder (AE / VAE / Contrastive AE)
@@ -24,7 +23,7 @@ The pipeline consists of the following steps:
     - Each omics modality = strategy
     - Mixed strategies = omics combinations
     - Fitness = prediction performance
-*** Data:
+Data:
   - Source: TCGA (via Firebrowse):
       - Modalities:
         - mRNA expression
